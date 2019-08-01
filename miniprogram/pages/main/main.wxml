@@ -1,0 +1,17 @@
+<!--miniprogram/pages/main/main.wxml-->
+<view class='contain'>
+  <van-notice-bar left-icon="../../images/watch.png" text="足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。" />
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='life'>
+    <text class='life-title'>--------- 小可爱们的分享  ---------</text>
+  </view>
+  <view wx:for='{{allcontent}}' wx:for-item='userContent' wx:key='{{index}}'>
+<school-fen url='{{userContent.fileID}}' userUrl='{{userContent.userUrl}}' name='{{userContent.name}}' content='{{userContent.title}}' di ='{{userContent._id}}'/>
+ </view>
+</view>

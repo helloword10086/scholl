@@ -1,0 +1,17 @@
+/* miniprogram/pages/mine/mine.wxss */
+.myself{
+  background:  #FEFEFE;
+  
+}
+.myself image{
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.myself text{
+  display: block;
+  text-align: center;
+  margin: 20rpx;
+}

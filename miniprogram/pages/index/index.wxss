@@ -1,0 +1,29 @@
+/* miniprogram/pages/index/index.wxss */
+page{
+  background: #42AFC0;
+}
+.content{
+  font-size: 20px;
+  margin: 60rpx;
+  text-align: center;
+  color: #fff;
+}
+.content text{
+  display: block;
+  margin-bottom: 40rpx;
+}
+.content image{
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 6rpx;
+}
+ .button{
+  text-align: center;
+  color: #B2B2B2;
+  padding: 10rpx;
+  background: #fff;
+  width: 30%;
+  border-radius: 6rpx; 
+  margin: 100rpx auto;
+}

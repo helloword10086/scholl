@@ -1,0 +1,79 @@
+.contain{
+  background: #FFFFFF;
+  width: 94%;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
+.user{
+  margin-left: 10rpx;
+  overflow: hidden;
+}
+.title{
+  display: block;
+  margin-left: 10rpx;
+}
+
+.user image{
+  display: block;
+  float: left;
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 100%;
+  margin-right: 10rpx;
+}
+.name{
+  display: block;
+  float: left;
+  line-height: 44.8px;
+}
+ .contain .mage{
+ overflow: hidden;
+margin-bottom: 20rpx;
+}
+.mage image{
+  height: 330rpx;
+  width: 330rpx;
+  display: block;
+  border-radius: 4px;
+  float: left;
+  margin-left: 10rpx;
+  margin-bottom: 10rpx;
+}
+.comment{
+  background: #F7F7F7;
+  margin-top: 10rpx;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15rpx;
+  border-radius: 4px;
+  margin-bottom: 20rpx;
+}
+.comment image{
+  height: 50rpx;
+  width: 120rpx;
+  display: block;
+}
+.foot{
+  display: flex;
+  margin-left: 10rpx;
+}
+.foot .fenx, .foot .hot{
+  flex: 2;
+
+}
+.foot .agree{
+flex: 1;
+}
+.foot image{
+  height: 60rpx;
+  width: 60rpx;
+  display: block;
+  float: left;
+  margin-right: 10rpx;
+}
+.foot text{
+  display: block;
+  float: left;
+}

@@ -1,0 +1,48 @@
+
+<view class="weui-cells">
+  <view class="weui-cell weui-cell_example weui-cell_access " bindtap='talk' data-index='1'>
+    <view class="weui-cell__hd">
+      <image src="../../images/mine.png" alt="" style="width:20px;margin-right:16px;display:block"/>
+    </view>
+    <view class="weui-cell__bd">
+      <p>失物招领</p>
+    </view>
+    <view class="weui-cell__ft">寻找小宝贝</view>
+  </view>
+  <view class="weui-cell weui-cell_example weui-cell_access " bindtap='talk'data-index='2'>
+    <view class="weui-cell__hd">
+      <image src="../../images/mine.png" alt="" style="width:20px;margin-right:16px;display:block"/>
+    </view>
+    <view class="weui-cell__bd">
+      <p>考研小分享</p>
+    </view>
+    <view class="weui-cell__ft">分享学习小心得</view>
+  </view>
+  <view class="weui-cell weui-cell_example weui-cell_access "bindtap='talk'data-index='3'>
+    <view class="weui-cell__hd">
+      <image src="../../images/mine.png" alt="" style="width:20px;margin-right:16px;display:block"/>
+    </view>
+    <view class="weui-cell__bd">
+      <p>约拍</p>
+    </view>
+   <view class="weui-cell__ft">热爱摄影的小伙伴</view>
+  </view>
+  <view class="weui-cell weui-cell_example weui-cell_access "bindtap='talk'data-index='4'>
+    <view class="weui-cell__hd">
+      <image src="../../images/mine.png" alt="" style="width:20px;margin-right:16px;display:block"/>
+    </view>
+    <view class="weui-cell__bd">
+      <p>兼职</p>
+    </view>
+   <view class="weui-cell__ft">寻找喜欢的兼职</view>
+  </view>
+  <view class="weui-cell weui-cell_example weui-cell_access "bindtap='talk'data-index='5'>
+    <view class="weui-cell__hd">
+      <image src="../../images/mine.png " alt="" style="width:20px;margin-right:16px;display:block"/>
+    </view>
+    <view class="weui-cell__bd">
+      <p>运动</p>
+    </view>
+   <view class="weui-cell__ft">结识热爱运动的小伙伴</view>
+  </view>
+</view>

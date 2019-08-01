@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/main/main",
+    "pages/zhong/zhong",
+    "pages/mine/mine",
+    "pages/want/want",
+    "pages/all/all",
+    "pages/talk/talk"
+  ],
+  "window": {
+    
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#42AFC0",
+    "navigationBarTitleText": "校伊",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "./images/main.png",
+        "selectedIconPath": "./images/main1.png"
+      },
+      {
+        "pagePath": "pages/zhong/zhong",
+        "text": "兴趣",
+        "iconPath": "./images/class.png",
+        "selectedIconPath": "./images/class1.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./images/mine1.png",
+        "selectedIconPath": "./images/mine.png"
+      }
+    ]
+  }
+  
+}

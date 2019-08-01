@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-popup": "../../dist/popup/index",
+    "van-picker": "../../dist/picker/index"
+  }
+}

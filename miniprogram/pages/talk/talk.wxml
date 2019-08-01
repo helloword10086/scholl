@@ -1,0 +1,16 @@
+
+<view class='alltalk'>
+  <view class='content' wx:for='{{alltalk}}'>
+    <view class='content-user'>
+      <image src='{{item.url}}'></image>
+      <text class='name'>{{item.name}}</text>
+      <text class='user-content'>{{item.text}}</text>
+    </view>
+
+  </view>
+</view>
+<view class='user-input'>
+  <text bindtap='confrime'>发送</text>
+  <input placeholder="输入内容" bindinput='input' value='{{value}}'></input>
+
+</view>

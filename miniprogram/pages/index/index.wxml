@@ -1,0 +1,13 @@
+<!--miniprogram/pages/index/index.wxml-->
+<view class='contain'>
+  <view class='content'>
+    <text>最美的校园，最美的你</text>
+    <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=127712635,3508234038&fm=26&gp=0.jpg'></image>
+  </view>
+  <view class='button' bindtap='enterMain'>亲，加入们吧</view>
+  <view >
+    <van-popup show="{{flag}}" position="bottom"  bind:close="onClose" overlay>
+      <van-picker show-toolbar title="学校" columns="{{ columns }}" bind:cancel="onCancel" bind:confirm="onConfirm" />
+    </van-popup>
+  </view>
+</view>

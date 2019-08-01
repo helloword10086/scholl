@@ -1,0 +1,8 @@
+/* miniprogram/pages/zhong/zhong.wxss */
+.weui-cells{
+  margin-top:0; 
+}
+.weui-cells image{
+  height: 33px;
+ 
+}

@@ -1,0 +1,34 @@
+<view class='contain'> 
+  <view class='user'>
+     <image src='{{userUrl}}' lazy-load></image>
+     <text class='name'>{{name}}</text>
+  </view>
+  <view class='title'>  
+
+      <text class='content'>{{content}}</text>
+  </view>
+  <view class='mage'> 
+    <view  wx:for='{{url}}'>
+       <image src='{{item}}' bindtap="previewImage" data-src="{{item}}" lazy-load></image>
+    </view>
+  </view>
+  <view class='comment' bindtap='userComment' data-di='{{di}}'>
+     <image src='../../images/hot.png' ></image>
+     <text class='comment-hot'>{{comment}}</text>
+  </view>
+  <view class='foot'>
+      <view class='fenx' bindtap='fenXiang'>
+      <image src='../../images/fen.png'></image>
+      <text >分享</text>
+      </view>
+      <view class='hot' bindtap='userComment' data-di='{{di}}'>
+        <image src='../../images/ping.png'></image>
+        <text>{{hotNum}}</text>
+      </view>
+      <view class='agree' bindtap='userAgree'>
+        <image src='../../images/zan1.png' wx:if ='{{flag}}'> </image>
+       <image src='../../images/zan.png' wx:else></image>
+       <text>{{agreeNum}}</text>
+      </view>
+  </view>
+</view>

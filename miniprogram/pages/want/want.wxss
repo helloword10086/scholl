@@ -1,0 +1,30 @@
+/* miniprogram/pages/want/want.wxss *//* miniprogram/pages/shangchuang/index.wxss */
+input{
+  width: 100%;
+  height: 400rpx;
+  
+  
+}
+.zhao{
+  overflow: hidden;
+  margin-bottom: 40rpx;
+}
+.zhao image{
+  display: block;
+  height: 300rpx;
+  width: 300rpx;
+  float: left;
+  margin-right: 10rpx;
+}
+.zhao video{
+   display: block;
+  height: 300rpx;
+  width: 300rpx;
+  float: left;
+  margin-right: 10rpx; 
+}
+button{
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+}

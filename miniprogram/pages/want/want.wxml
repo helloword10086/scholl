@@ -1,0 +1,14 @@
+<view class='contan'>
+    <input bindinput='input' placeholder='写些什么跟大家分享.....'></input>
+    
+    <view class='zhao'>
+      <block wx:for='{{tempFilePaths}}'>
+         <image src='{{item}}'></image>
+
+      </block>
+      <video src='{{tempFilePath}}' wx:if='{{tempFilePath }}'></video>
+      <image src='../../images/pian.png'  bindtap='phone'></image>
+    </view>
+    <button type='warn' bindtap='submit'>确定发布</button>
+</view>
+

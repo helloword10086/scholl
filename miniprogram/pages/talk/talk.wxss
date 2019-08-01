@@ -1,0 +1,63 @@
+/* miniprogram/pages/talk/talk.wxss */
+page{
+  background: #EDEDED;
+}
+
+ .alltalk{
+  margin-bottom:62px;
+  overflow: hidden;
+ }
+.content{
+  overflow: hidden;
+  padding: 20px 5px;
+  margin-bottom:20px;
+}
+.content-user{
+  
+  position: relative;
+}
+  .content-user image{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: block;
+    float: left;
+    margin-left: 5px;
+
+  }
+  .content-user .name{
+    display: block;
+    float: left;
+    margin-left: 3px;
+  }
+.user-input{
+  position: fixed;
+  bottom: 0;
+  background: #F6F6F6;
+  width: 100%;
+  padding: 5px ;
+  overflow: hidden;
+}
+input{
+  background: #fff;
+  border-radius: 4px;
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+}
+.user-input text{
+  display: block;
+  float: right;
+  margin-right: 12px;
+  color: #14BAEA;
+  line-height: 46px;
+}
+.user-content{
+  display: block;
+  position: absolute;
+  top: 33px;
+  left: 68px;
+  background: #FFFFFF;
+  padding: 5px;
+  
+}

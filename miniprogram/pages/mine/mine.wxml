@@ -1,0 +1,15 @@
+<!--miniprogram/pages/mine/mine.wxml-->
+<view class='contain'>
+    <view class='myself'>
+    <image wx-if="{{flag}}" src='{{url}}'></image>
+       <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=127712635,3508234038&fm=26&gp=0.jpg' wx:else></image>
+       <text wx-if ='{{flag}}'>{{name}}</text>
+       <text wx:else>name</text>
+    </view>
+    <view class='content'>
+  <van-cell title="分享你的小生活"  bind:click='mylife' />
+  <van-cell title="我的分享"  bind:click='allLife' /> 
+    </view>
+    <button type='primary' open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权</button>
+    <button type='warn' bindtap='moveMes'>注销</button>
+</view>

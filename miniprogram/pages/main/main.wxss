@@ -1,0 +1,12 @@
+/* miniprogram/pages/main/main.wxss */
+.contain swiper swiper-item image{
+  width: 100%;
+}
+.contain .life .life-title{
+  display: block;
+  text-align: center;
+  padding: 20rpx;
+  color: #9E9E9E;
+  background: #FEFEFE;
+  margin-bottom: 20rpx;
+}
